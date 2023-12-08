@@ -10,17 +10,15 @@ public class Person {
     public Person() {
         setAge(Integer.MAX_VALUE);
         setName("");
-
     }
 
     public Person(int age) {
         this.age = age;
-        setName("");
+
     }
 
     public Person(String name) {
         this.name = name;
-        setAge(Integer.MAX_VALUE);
     }
 
     public Person(String name, int age) {
@@ -41,6 +39,6 @@ public class Person {
     }
 
     public Integer getAge() {
-        return this.age;
+        return age;
     }
 }
